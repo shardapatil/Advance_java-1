@@ -38,7 +38,7 @@ public class SessionManagementExample1 extends HttpServlet {
 		String message =null;
 		if(session.isNew())
 		{
-			message = "Welcome to CDAC..";
+			message = "Welcome to CDAC...";
 			session.setAttribute("count", visitcount);
 		}
 		else {
